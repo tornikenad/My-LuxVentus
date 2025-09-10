@@ -1,52 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #F9F9F9;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
 }
 
-.container{
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
-
 
 /* header  */
 
+.header {
+  padding: 37px 84px 47px 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.header{
-    padding: 37px 84px 47px 84px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-nav a {
+  color: #262626;
+  font-weight: 700;
+  padding: 8px 30px;
+  font-size: 14px;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+
+.header-nav a:hover {
+  background-color: #4ce0d7;
+  transform: translateY(5px);
+}
+
+/* first section  */
+
+.first-section {
+  padding: 0 84px;
+}
+
+.first-section-texts {
+  background: url(./assets/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 218px 0 141px 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.first-section-texts p {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 23%;
+  color: #ffffff;
+}
+
+.first-section-texts h1 {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.first-section-texts h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  max-width: 494px;
 }
 
 
-
-.header-nav{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.header-nav a{
-    color: #262626;
+.first-section-texts span{
     font-weight: 700;
-    padding: 8px 30px;
-    font-size: 14px;
-    border-radius: 40px;
-    transition: .3s;
-}
-
-
-.header-nav a:hover{
-    background-color: #4CE0D7;
-    transform: translateY(5px);
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
