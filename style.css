@@ -18,6 +18,8 @@ body {
 
 /* header  */
 
+
+
 .header {
   padding: 37px 84px 47px 84px;
   display: flex;
@@ -163,9 +165,38 @@ body {
   margin-top: 20px;
 }
 
+.line {
+  margin-top: 87px;
+  margin-bottom: 52px;
+  padding: 0 84px;
+}
 
-.line{
-    margin-top: 87px;
-    margin-bottom: 52px;
-    padding: 0 84px;
+/* fashion  */
+
+.fashion {
+  max-width: 1202px;
+}
+
+.fashion-first {
+    position: relative;
+}
+
+
+.fashion-first a{
+    position: absolute;
+    top: 23px;
+    left: 47px;
+}
+
+.fashion-first a {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  padding: 10px 81px;
+  border-radius: 40px;
+  background-color: #262626;
 }
